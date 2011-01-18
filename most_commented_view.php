@@ -101,6 +101,28 @@ $handler->override_option('filters', array(
     'field' => 'type',
     'relationship' => 'none',
   ),
+  'created' => array(
+    'operator' => 'between',
+    'value' => array(
+      'type' => 'offset',
+      'value' => '-1 week',
+      'min' => '-1 week',
+      'max' => 'now',
+    ),
+    'group' => '0',
+    'exposed' => FALSE,
+    'expose' => array(
+      'operator' => FALSE,
+      'label' => '',
+    ),
+    'id' => 'created',
+    'table' => 'node',
+    'field' => 'created',
+    'override' => array(
+      'button' => 'Override',
+    ),
+    'relationship' => 'none',
+  ),
 ));
 $handler->override_option('access', array(
   'type' => 'none',
@@ -108,7 +130,10 @@ $handler->override_option('access', array(
 $handler->override_option('cache', array(
   'type' => 'none',
 ));
-$handler->override_option('title', 'Most Commented');
+$handler->override_option('title', 'Ό,τι Πιο Popular');
+$handler->override_option('header', 'Αυτά είναι τα δημοφιλέστερα θέματα αυτή τη στιγμή στο myplaisio.gr');
+$handler->override_option('header_format', '1');
+$handler->override_option('header_empty', 0);
 $handler->override_option('items_per_page', 5);
 $handler->override_option('style_options', array(
   'grouping' => '',
