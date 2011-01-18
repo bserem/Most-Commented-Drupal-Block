@@ -1,0 +1,63 @@
+/*most commented*/
+.bargraph{
+  width: 300px;
+}
+
+.most-commented {
+  float: left;
+  clear: both;
+  height: 55px;
+  color: #FFFFFF;
+  border-top: 5px solid;
+  border-top-color: #888888;
+  margin-top: -5px;
+  //background-color: #a3a3a3;
+}
+
+.most-commented-caption {
+  display: inline-block;
+  margin: 4px;
+  width: 85%;
+}
+
+.most-commented-commentsnumber {
+  float: right;
+  margin-top: 5px;
+  margin-right: -10px;
+  font-size: 13px;
+  padding: 3px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 15px 15px 15px 0px;
+  -moz-border-radius: 15px 15px 15px 0px;
+  -webkit-border-radius: 15px 15px 15px 0px;
+}
+
+.views-row-1 .most-commented {
+  background-color: #c90608;
+  font-weight: bold;
+  border-top: none;
+  padding-top: 5px;
+  width: 95%;
+}
+
+.views-row-2 .most-commented {
+  background-color: #303030;
+  width: 86%;
+}
+
+.views-row-3 .most-commented {
+  background-color: #404040;
+  width: 78%;
+}
+
+.views-row-4 .most-commented {
+  background-color: #606060;
+  width: 73%;
+}
+
+.views-row-5 .most-commented {
+  background-color: #808080;
+  width: 55%;
+}
