@@ -1,4 +1,4 @@
-$view = new view;
+ï»¿$view = new view;
 $view->name = 'most_commented';
 $view->description = 'most commented nodes';
 $view->tag = 'custom';
@@ -130,8 +130,8 @@ $handler->override_option('access', array(
 $handler->override_option('cache', array(
   'type' => 'none',
 ));
-$handler->override_option('title', '¼,ôé Ðéï Popular');
-$handler->override_option('header', 'ÁõôÜ åßíáé ôá äçìïöéëÝóôåñá èÝìáôá áõôÞ ôç óôéãìÞ óôï myplaisio.gr');
+$handler->override_option('title', 'ÎŒ,Ï„Î¹ Î Î¹Î¿ Popular');
+$handler->override_option('header', 'Î‘Ï…Ï„Î¬ ÎµÎ¯Î½Î±Î¹ Ï„Î± Î´Î·Î¼Î¿Ï†Î¹Î»Î­ÏƒÏ„ÎµÏÎ± Î¸Î­Î¼Î±Ï„Î± Î±Ï…Ï„Î® Ï„Î· ÏƒÏ„Î¹Î³Î¼Î® ÏƒÏ„Î¿ myplaisio.gr');
 $handler->override_option('header_format', '1');
 $handler->override_option('header_empty', 0);
 $handler->override_option('items_per_page', 5);
